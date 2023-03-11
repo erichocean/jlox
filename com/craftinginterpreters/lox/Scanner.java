@@ -114,7 +114,7 @@ class Scanner {
 
       case '"': string(); break;
         
-        default:
+      default:
         if (isDigit(c)) {
           number();
         } else if (isAlpha(c)) {
